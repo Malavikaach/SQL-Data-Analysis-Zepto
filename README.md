@@ -34,6 +34,8 @@ The project creates a table named `zepto` containing:
    - High MRP products out of stock
    - Average discounts
    - Price per gram analysis
+   - Products into categories like low,medium,bulk
+   - Total inventory weight per category
 
 ## Technologies Used
 - PostgreSQL
