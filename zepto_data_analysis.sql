@@ -127,7 +127,7 @@ FROM zepto
 WHERE weightInGms >=100
 ORDER BY price_per_gram;
 
---group the productss into categories likee low,medium,bulk.
+--group the products into categories likee low,medium,bulk.
 
 SELECT DISTINCT name,weightInGms,
 CASE WHEN weightInGms<100 THEN 'Low'
